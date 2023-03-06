@@ -3,12 +3,20 @@ html {
   font-size: 18px;
 }
 
+body {
+  background-color: #c48850;
+ }
+
 header h1 {
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 3px;
 }
 
 div h2 {
   text-align: center;
+  font-size: 1.2rem;
 }
 
 div img {
@@ -28,4 +36,19 @@ ul {
 
 ul li a {
   text-decoration: none;
+  color: #864a11;
+  font-size: 1.2rems;
+  font-weight: 500;
+}
+
+a:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: .5rem;
+  border-radius: 10px
+}
+
+a:active {
+  background-color: transparent;
+  color: transparent;
 }
