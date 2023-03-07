@@ -12,7 +12,7 @@ html {
 
 body {
   background-color: rgb(17,24,39);
-
+  line-height: 2rem;
  }
  
  header h1 {
@@ -49,8 +49,10 @@ body {
 
  ul li,
  ol li {
-  margin: 0 0 1rem 2rem;
+  margin: 0 0 0em 2rem;
  }
+
+
 
  ul li a{
   color: rgb(169,121,42);
